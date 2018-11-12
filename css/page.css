@@ -44,8 +44,8 @@ header{
 
 .main-nav li a:hover{
 	border: 1px solid white;
-
 }
+
 
 
 
@@ -124,9 +124,23 @@ h1{
   background-position: 200%;
  }
 }
+.button a:before
+{
+ content: '';
+ position: absolute;
+
+ z-index: -1;
+ background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+ background-size: 400%;
+ border-radius: 40px;
+ opacity: 0;
+ transition: 0.5s;
+
+ 
+}
 
 
-.button a:hover:before
+.button a:hover:before,
 {
 	filter: blur(30px);
 	opacity:1;
