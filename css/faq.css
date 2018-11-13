@@ -5,7 +5,7 @@
 }
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)), url(https://cystack.net/wp-content/uploads/2018/03/program.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -44,20 +44,20 @@ header{
 
 .main-nav li a:hover{
 	border: 1px solid white;
-
 }
 
 
 
+
 body{
-	font-family: Georgia;
+	font-family: monospace;
 }
 
 .row{
 	max-width: 1200px;
 	margin: auto;
 }
-.hero{
+.good{
 	position: absolute;
 	width: 1200px;
 	left: 118px;
@@ -66,20 +66,18 @@ body{
 
 
 }
-h1{
+.good h1{
 	color: white;
 	text-transform: uppercase;
 	font-size: 80px;
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 240px;
 	text-shadow: 1px 2px black;
-	font-family: Bangers;
+	font-family: Bell MT;
 	
 }
 
 
-
- 
 .main-nav ul{
 	position: absolute;
 	left: 0px;
@@ -105,75 +103,29 @@ h1{
 	
 }
 
-.tops ul li{
-	float: center;
-	list-style: none;
-	margin-top: 30px;
-	position: relative;
-	
-
-
-
-
-}
-
-.tops ul li a:hover{
-	border: 1px solid white;
-
-}
-
-
-.tops li{
-	display: block;
-	font-size: 16px;
-	text-align: center;
-	
-	
-}
-
-.tops ul li a{
-	color: white;
-	text-decoration: none;
-
-}
-
-.section td{
-	margin-top: 100px;
+.faq h1{
 	color: black;
-	font-size: 50px;
-	font-family: Lora;
-}
-
-.section table{
-	margin-top: 100px;
-	margin-left: 200px;
+	margin-top: 10px;
+	font-size: 100px;
+		font-family: Bell MT;
 
 }
 
-.section table tr td img{
-	margin-left: 350px;
-	margin-right: 200px;
-	margin-bottom: 10px;
-	width: 350px;
-	height:200px;
+.w3-container{
+	margin-bottom: 30px;
 }
 
-
-.section table tr td p{
-	font-size:22px;
+.w3-container button{
+	margin-top: 0px;
+	margin-bottom: 30px;
 	font-family: monospace;
-	margin-top: 30px;
-	word-spacing: 2px;
-	line-height: 40px;
-	margin-right: 180px;
-	text-align: justify;
-	margin-bottom: 150px;
+
 }
 
-.section table tr td{
+.w3-hide,
+.w3-container p{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	font-family: cursive;
 
-} 
-body{
-	background-color: white;
 }
-
